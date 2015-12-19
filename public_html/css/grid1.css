@@ -1,0 +1,57 @@
+.grid-item {
+  float: left;
+  /*width: 80px;*/
+  height: 300px;
+  /*border: 2px solid hsla(0, 0%, 0%, 0.5);*/
+  
+}
+
+/*.grid-item--width2 { width: 160px; }
+.grid-item--height2 { height: 140px; }*/
+
+.grid-sizer,
+.grid-item { width: 40%; }
+/* 2 columns */
+.grid-item--width2 { width: 20%; }
+.grid-item--width3 { width: 50%; }
+.grid-itemheight2-- { height: 25%; }
+
+.red
+{
+    background-color: #ff3366;
+}
+.green
+{
+    background-color: green;
+}
+.blue
+{
+    background-color: blue;
+}
+
+   html,
+   body {
+     height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-color:white;
+      /*to hide scrollbar*/
+     overflow-y: hidden;
+     overflow-x: hidden;
+      }
+     
+      .circle
+      {
+        border: 2px solid whitesmoke;
+        width: 10%;
+        height:auto;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius: 100%;
+        padding:50px;/* this instead of a set width and height just change this to change how much bigger the circle is than the link*/
+        background:red;
+        text-align:center;
+        vertical-align:center;
+        }            
+.circle--width2 { width: 50%; }
