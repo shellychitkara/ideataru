@@ -41,7 +41,20 @@
      overflow-x: hidden;
       }
      
-  
+   /*   .circle
+      {
+        border: 2px solid whitesmoke;
+        width: 10%;
+        height:auto;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius: 100%;
+        padding:50px;/* this instead of a set width and height just change this to change how much bigger the circle is than the link*/
+/*        background:red;
+        text-align:center;
+        vertical-align:center;
+        }            
+.circle--width2 { width: 50%; }*/
 .divide
 {
     height:150px;
